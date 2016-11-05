@@ -10,13 +10,13 @@ public class CS2Replacer {
 	}
 
 	public static final String filterCrashUrl(String url) {
-		return "http://www.noszscape.org/site/index.php?page=crashland";
+		return "http://www.noszscape.org/site/index.php?page=crashland"; //Need To Get Proper Website
 	}
 
 	public static final String filterUrl(String url) {
 		// System.err.println("openUrl(" + url + ")");
 		if (url.contains("mod=accountappeal"))
-			return "http://www.noszscape.org/site/index.php?page=recover";
+			return "http://www.noszscape.org/site/index.php?page=recover"; //Need To Get Proper Website
 		return url;
 	}
 
