@@ -26,12 +26,12 @@ public class Loader extends Applet {
 	public static boolean DISABLE_CS_MAP_CHAR_CHECK = true;
 	public static boolean DISABLE_SOFTWARE_MODE = true;
 	public static boolean ENABLE_LOBBY = false;
-	public static String SERVER_NAME = "Zivix";
+	public static String SERVER_NAME = "CollabScape718";
 	public static final int REVISION = 718;
-	public static String GAME_IP = "127.0.0.1";
-	public static String LOBBY_IP = "127.0.0.1";
+	public static String GAME_IP = "localhost"; //CHANGEIP
+	public static String LOBBY_IP = "localhost";
 	public static boolean VB_ENABLED = false;
-	public static final int LOBBY_PORT = 43594;
+	public static final int LOBBY_PORT = 43593; //PORTHERE
 	public static final boolean NSN_ENABLED = true;
 	public static int SUB_REVISION = 20;
 	public static Loader instance;
@@ -41,7 +41,7 @@ public class Loader extends Applet {
 	public static void main(String[] args) throws IOException {
 		if (args.length > 0) {
 			if (Boolean.parseBoolean(args[0]))
-				LOBBY_IP = GAME_IP = "127.0.0.1";
+				LOBBY_IP = GAME_IP = "localhost"; //CHANGEIP
 			SUB_REVISION = Integer.parseInt(args[1]);
 		}
 		Loader loader = instance = new Loader();
@@ -112,7 +112,7 @@ public class Loader extends Applet {
 	}
 
 	void openFrame() {
-		client_frame = new JFrame("Zivix || Built To Perfection");
+		client_frame = new JFrame("CollabScape718 - Because We Can");
 		client_frame.setLayout(new BorderLayout());
 		client_panel.setLayout(new BorderLayout());
 		client_panel.add(this);//
