@@ -3,7 +3,7 @@ import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.io.IOException;
 import java.net.URL;
-import java.util.Properties;
+import java.util.Properties;  //test you dumb fuck
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
