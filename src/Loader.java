@@ -28,6 +28,8 @@ public class Loader extends Applet {
 	public static boolean ENABLE_LOBBY = false;
 	public static String SERVER_NAME = "CollabScape718";
 	public static final int REVISION = 718;
+	public static String GAME_IP = "127.0.0.1";//changeip	
+	public static String LOBBY_IP = "127.0.0.1";
 	public static boolean VB_ENABLED = false;
 	public static final int LOBBY_PORT = 43594;
 	public static final boolean NSN_ENABLED = true;
