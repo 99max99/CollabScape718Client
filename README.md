@@ -1,2 +1,2 @@
 # CollabScape718Client
-RSPS collaboration peoject
+RSPS Collaboration Project
