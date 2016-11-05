@@ -31,11 +31,11 @@ public class Class22 {
     static void method372(RsByteBuffer buffer, int i) {
 	try {
 	    int length = buffer.readUnsignedSmart(1723054621);
-	    Class52_Sub2_Sub1_Sub1.aClass353Array9987 = new Class353[length];
+	    Class52_Sub2_Sub1_Sub11.aClass353Array9987 = new Class353[length];
 	    for (int i_1_ = 0; i_1_ < length; i_1_++) {
-		Class52_Sub2_Sub1_Sub1.aClass353Array9987[i_1_] = new Class353();
-		Class52_Sub2_Sub1_Sub1.aClass353Array9987[i_1_].anInt3820 = buffer.readUnsignedSmart(1723054621) * -801041135;
-		Class52_Sub2_Sub1_Sub1.aClass353Array9987[i_1_].aString3819 = buffer.readJagString(681479919);
+		Class52_Sub2_Sub1_Sub11.aClass353Array9987[i_1_] = new Class353();
+		Class52_Sub2_Sub1_Sub11.aClass353Array9987[i_1_].anInt3820 = buffer.readUnsignedSmart(1723054621) * -801041135;
+		Class52_Sub2_Sub1_Sub11.aClass353Array9987[i_1_].aString3819 = buffer.readJagString(681479919);
 	    }
 	    Class395.anInt5190 = buffer.readUnsignedSmart(1723054621) * 457295123;
 	    Class338.anInt3630 = buffer.readUnsignedSmart(1723054621) * -924756647;

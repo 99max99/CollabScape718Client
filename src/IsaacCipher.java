@@ -220,7 +220,7 @@ public final class IsaacCipher {
 
     static Class52_Sub2_Sub1 method5919(SafeModeToolkit class_ra_sub1, Canvas canvas, int i, int i_14_, int i_15_) {
 	try {
-	    Class52_Sub2_Sub1_Sub1 class52_sub2_sub1_sub1 = new Class52_Sub2_Sub1_Sub1(class_ra_sub1, canvas, i, i_14_);
+	    Class52_Sub2_Sub1_Sub11 class52_sub2_sub1_sub1 = new Class52_Sub2_Sub1_Sub11(class_ra_sub1, canvas, i, i_14_);
 	    return class52_sub2_sub1_sub1;
 	}
 	catch (RuntimeException runtimeexception) {
